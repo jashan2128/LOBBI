@@ -1,0 +1,11 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Dependencies and build files
+node_modules/
+.next/
+
+# Vercel
+.vercel/
